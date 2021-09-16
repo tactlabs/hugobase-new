@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tactlabs.github.io/hugobase-new/"
 languageCode = "en-us"
 title = "TACT"
 theme = "hugo-theme-learn"
