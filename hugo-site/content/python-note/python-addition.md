@@ -9,7 +9,7 @@ draft: false
 
 ```python
 a = 5
-b = 6
+b = 7
 
 c = a + b
 ```

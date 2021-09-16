@@ -11,7 +11,7 @@
 	"title": "Python Addition",
 	"tags": [],
 	"description": "-",
-	"content": "a = 5 b = 6 c = a + b print(c) 11  "
+	"content": "a = 5 b = 7 c = a + b print(c) 11  "
 },
 {
 	"uri": "https://tactlabs.github.io/hugobase-new/python-note/python-division/",
