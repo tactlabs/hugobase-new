@@ -16,3 +16,7 @@ Basic Template
 5. Run `git push`
 
 Site's html is in the master branch's `/docs` folder.
+
+## Note
+
+make.ipynb does not work on Windows
