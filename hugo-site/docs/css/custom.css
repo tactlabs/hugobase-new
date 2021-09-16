@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* ---------------------------------------------------------
 /* Computer Modern font
@@ -184,26 +184,29 @@ Navbar
 ---------------------------------------------------------*/
 
 .navbar {
-  background-color: #0d6996;
+  background-color: #222222;
   border-bottom: 0px;
+  border-radius: 4px;
 }
 
 .navbar .navbar-brand, .navbar .navbar-brand:hover {
-  color: #fff;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: .9em;
+  color: #9d9d9d;
+  font-size: 17px;
+  float: left;
+  margin-left: -15px;
+  line-height: 20px;
+  font-family: sans-serif;
 }
 
 .navbar-nav > li > a {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: .8em;
+  color: #9d9d9d;
+  font-size: 15px;
   font-weight: 500;
+  font-family: sans-serif;
+  padding: 15px;
 }
 
-.navbar-toggler-icon { 
+.navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
 }
 
@@ -306,19 +309,19 @@ Homepage cards
     -moz-columns: 1;
     columns: 1;
   }
- 
+
   @media (min-width: 480px) {
     .homepage .article_list {
       -webkit-columns: 1;
       -moz-columns: 1;
       columns: 1;
     }
-    
+
     .homepage .article_list li{
       font-size: 1.2em;
     }
   }
-  
+
 
 /* ---------------------------------------------------------
 Technical Notes
@@ -336,6 +339,11 @@ Technical Notes
   font-size: 1.1em;
 }
 
+p>.mjx-chtml {
+  display: block;
+  text-align: center;
+}
+
 .technical_note h1, .page h1{
   font-size: 1.8rem;
 }
@@ -348,19 +356,19 @@ Technical Notes
 }
 
 .technical_note h3{
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: bold;
   margin-top: 1em;
 }
 
 .technical_note h4{
-  font-size: 1.05em;
+  font-size: 1.1em;
   font-weight: bold;
   margin-top: 1em;
 }
 
 .technical_note h5{
-  font-size: 1em;
+  font-size: 1.0em;
   font-weight: bold;
   margin-top: 1em;
 }
@@ -458,8 +466,9 @@ Biography
 Code
 ---------------------------------------------------------*/
 
-pre code{
-  color:#747474;
+code{
+  color:#333;
+  background-color: #EEE;
 }
 
 pre {
