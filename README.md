@@ -9,8 +9,7 @@ Basic Template
 
 ## To Deploy
 
-1. Run `runipy make.ipynb`
-   1.1 To update all files, use `runipy make.ipynb`
+1. Run `jupyter nbconvert --to notebook --execute make.ipynb`
 2. Run `cd hugo-site`
 3. Run `hugo`
 4. Run `git add -A`
