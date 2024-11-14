@@ -3,6 +3,7 @@ Basic Template
 
 ## To Verify in your local browser
 1. Run `runipy make.ipynb`
+   or `jupyter nbconvert --to notebook --execute make.ipynb `
 2. Run `cd hugo-site`
 3. Run `hugo server -D`
 4. Check here: http://localhost:1313/hugobase-new/
